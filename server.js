@@ -2,7 +2,6 @@ const http = require('http');
 const Koa = require('koa');
 const cors = require('@koa/cors');
 const { koaBody } = require('koa-body');
-const { json } = require('body-parser');
 const app = new Koa();
 const Router = require('koa-router');
 
